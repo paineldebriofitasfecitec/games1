@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="for.css">
+</head>
+<body>
+    <div class="image-button">
+        <a href="index.html">
+            <img src="voltar.png" alt="Botão">
+            <p class="image-title">Voltar</p>
+        </a>
+    </div>
+    <div class="container">
+        <h1>Jogo da Forca </h1>
+        <div id="forca">
+            <img id="forca-img" src="7.png" alt="Forca">
+        </div>
+        <div id="palavra">
+            
+        </div>
+        <input type="text" id="letra" maxlength="1" placeholder="Digite uma letra">
+        <button id="enviar">Enviar</button>
+        <div id="letras-adivinhadas"></div>
+        <div id="mensagem"></div>
+        <button id="tentar-novamente" style="display: none;">Tentar novamente</button>
+    </div>
+    
+    <button id="proximo" style="display: none;">Próximo</button>
+    
+
+    <script src="for.js"></script>
+</body>
+</html>
